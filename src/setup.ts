@@ -29,7 +29,7 @@ async function setup() {
   const filename = getFilename(version);
   const dirname = getDirname(version);
 
-  const downloadUrl = `https://github.com/mozilla/sccache/releases/download/${version}/${filename}`;
+  const downloadUrl = `https://github.com/Xuanwo/cccache/releases/download/${version}/${filename}`;
   core.info(`sccache download from url: ${downloadUrl}`);
 
   // Download and extract.
